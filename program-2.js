@@ -2,10 +2,11 @@ function oddseries(x){
   if(x <= 0) 
   return;
   let i = 1;
+  let result = [];
   for (let count = 0; count < x; count++){
-    console.log(i);
+     result.push(i); 
+     console.log(result.join(','));
     i += 2 ;
   }
-  return;
 }
 oddseries(5);
