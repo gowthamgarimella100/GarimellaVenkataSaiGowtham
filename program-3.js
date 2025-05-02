@@ -5,7 +5,7 @@ function generateOddNumberSeries(value){
   const x = value%2===0?value-1:value
   let y = 1;
   for(let i=0;i<x;i++){
-    resilt.push(y);
+    result.push(y);
     y+=2
   }
   return result.join(',');
